@@ -1,8 +1,8 @@
-\# ServiceNow AI Change Risk Advisor
+# ServiceNow AI Change Risk Advisor
 
 
 
-\## Overview
+## Overview
 
 AI-powered ServiceNow Change Management assistant that analyzes change requests and provides structured risk guidance.
 
@@ -12,21 +12,21 @@ This project integrates:
 
 
 
-\- ServiceNow Change Management
+- ServiceNow Change Management
 
-\- FastAPI backend
+- FastAPI backend
 
-\- OpenAI API
+- OpenAI API
 
-\- Render cloud deployment
+- Render cloud deployment
 
-\- ServiceNow UI Action
+- ServiceNow UI Action
 
-\- GlideAjax Script Include
+- GlideAjax Script Include
 
 
 
-\## Business Use Case
+## Business Use Case
 
 Change Advisory Boards (CAB) and IT teams need fast risk assessment for change requests.
 
@@ -36,31 +36,31 @@ This assistant provides:
 
 
 
-\- change summary
+- change summary
 
-\- risk scoring
+- risk scoring
 
-\- risk reasoning
+- risk reasoning
 
-\- rollback assessment
+- rollback assessment
 
-\- test plan review
+- test plan review
 
-\- affected services analysis
+- affected services analysis
 
-\- CAB recommendation
+- CAB recommendation
 
-\- implementation advice
+- implementation advice
 
-\- approval recommendation
-
-
-
-\---
+- approval recommendation
 
 
 
-\## Architecture
+---
+
+
+
+## Architecture
 
 
 
@@ -92,23 +92,23 @@ ServiceNow Work Notes
 
 
 
-\---
+---
 
 
 
-\## API Endpoints
+## API Endpoints
 
 
 
-\### Health Check
+### Health Check
 
-GET /
+GET 
 
 
 
-\### AI Change Analysis
+### AI Change Analysis
 
-GET /ai-change/{change\_number}
+GET ai-change{change_number}
 
 
 
@@ -116,69 +116,69 @@ Example:
 
 
 
-/ai-change/CHG0000009
+ai-changeCHG0000009
 
 
 
-\---
+---
 
 
 
-\## Key Features
+## Key Features
 
 
 
-\- change risk scoring
+- change risk scoring
 
-\- rollback analysis
+- rollback analysis
 
-\- CAB guidance
+- CAB guidance
 
-\- approval intelligence
+- approval intelligence
 
-\- affected service prediction
+- affected service impact assessment
 
-\- implementation recommendations
-
-
-
-\---
+- implementation recommendations
 
 
 
-\## Tech Stack
+---
 
 
 
-\- Python
-
-\- FastAPI
-
-\- OpenAI API
-
-\- ServiceNow
-
-\- GlideAjax
-
-\- RESTMessageV2
-
-\- Render
-
-\- GitHub
+## Tech Stack
 
 
 
-\---
+- Python
+
+- FastAPI
+
+- OpenAI API
+
+- ServiceNow
+
+- GlideAjax
+
+- RESTMessageV2
+
+- Render
+
+- GitHub
 
 
 
-\## ServiceNow Components
+---
 
 
 
-\### UI Action
+## ServiceNow Components
 
-Change Request \[change\_request]
+
+
+### UI Action
+
+Change Request [change_request]
 
 
 
@@ -189,24 +189,23 @@ Button:
 Analyze Change Risk
 
 
-
-\### Script Include
+### Script Include
 
 AIChangeRiskAdvisorAjax
 
 
 
-\### Output
+### Output
 
 Writes structured AI risk analysis into Change Work Notes.
 
 
 
-\---
+---
 
 
 
-\## Deployment
+## Deployment
 
 
 
@@ -218,21 +217,23 @@ Environment variables:
 
 
 
-OPENAI\_API\_KEY  
+OPENAI_API_KEY  
 
-SERVICENOW\_INSTANCE\_URL  
+SERVICENOW_INSTANCE_URL  
 
-SERVICENOW\_USERNAME  
+SERVICENOW_USERNAME  
 
-SERVICENOW\_PASSWORD  
+SERVICENOW_PASSWORD  
 
-
-
-\---
+Never commit API keys, passwords, or a real `.env` file. Use a dedicated ServiceNow integration account with only the permissions required for Change Management access.
 
 
 
-\## Portfolio Value
+---
+
+
+
+## Portfolio Value
 
 
 
@@ -240,27 +241,30 @@ Demonstrates:
 
 
 
-\- Change Management automation
+- Change Management automation
 
-\- CAB decision support
+- CAB decision support
 
-\- AI integration
+- AI integration
 
-\- enterprise workflow automation
+- enterprise workflow automation
 
-\- ServiceNow development
+- ServiceNow development
 
-\- cloud deployment
-
-
-
-\---
+- cloud deployment
 
 
 
-\## Author
+---
 
 
 
-Joseph Mwangi
+## Author
+
+
+## Author
+
+Joseph Mwangi  
+ServiceNow Certified Application Developer (CAD)  
+[GitHub Profile](https://github.com/mathioya2000) | [Portfolio](https://mathioya2000.github.io)
 
